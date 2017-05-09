@@ -236,4 +236,10 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    //郑勇  样式全局替换
+    'view_replace_str'  =>  [
+    '__PUBLIC__'=>'/thinkphp5/public/',
+    '__ROOT__' => '/',
+]
 ];
